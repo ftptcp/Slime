@@ -1,0 +1,55 @@
+1️⃣ visit https://www.zillow.com/
+
+USER: get city and state.
+
+
+2️⃣ find the input form, and input [USER] and SEARCH
+TAG: <input type="text" role="combobox" aria-owns="react-autowhatever-1" aria-expanded="false" autocomplete="off" aria-autocomplete="list" aria-controls="react-autowhatever-1" class="StyledFormControl-c11n-8-86-1__sc-18qgis1-0 DA-dAx Input-c11n-8-86-1__sc-4ry0fw-0 frrUMP react-autosuggest__input" placeholder="Enter an address, neighborhood, city, or ZIP code" aria-label="Search: Suggestions appear below" id="search-box-input" value="">
+CLASS INPUT ELEMENT: class="StyledFormControl-c11n-8-86-1__sc-18qgis1-0 DA-dAx Input-c11n-8-86-1__sc-4ry0fw-0 frrUMP react-autosuggest__input"
+PICK A UNIQUE CLASS FROM THE CLASS ABOVE
+
+3️⃣ Grab all the cards into a list
+4️⃣ For each card, print the address and amount
+
+🆕
+Next, i will sort the addresses into rich, mediumm and poor.
+
+
+
+
+NB
+----
+<div class="StyledPropertyCardDataWrapper-c11n-8-84-3__sc-1omp4c3-0 bKpguY property-card-data">
+    <a href="https://www.zillow.com/homedetails/1120-Anderson-St-Alexandria-VA-22312/192137517_zpid/" data-test="property-card-link" class="StyledPropertyCardDataArea-c11n-8-84-3__sc-yipmu-0 jnnxAW property-card-link" tabindex="0">
+      🏠  <address data-test="property-card-addr">1120 Anderson St, Alexandria, VA 22312</address>
+    </a>
+    <div class="StyledPropertyCardDataArea-c11n-8-84-3__sc-yipmu-0 jretvB">REALTY ONE GROUP CAPITAL</div>
+    <div class="StyledPropertyCardDataArea-c11n-8-84-3__sc-yipmu-0 fDSTNn">
+        <div class="PropertyCardWrapper__StyledPriceGridContainer-srp__sc-16e8gqd-0 kSsByo">
+           💰 <span data-test="property-card-price" class="PropertyCardWrapper__StyledPriceLine-srp__sc-16e8gqd-1 iMKTKr">$689,000</span>
+        </div></div><div class="StyledPropertyCardDataArea-c11n-8-84-3__sc-yipmu-0 dbDWjx"><ul class="StyledPropertyCardHomeDetailsList-c11n-8-84-3__sc-1xvdaej-0 eYPFID"><li><b>3</b> <abbr>bds</abbr></li><li><b>3</b> <abbr>ba</abbr></li><li><b>1,618</b> <abbr>sqft</abbr></li></ul> - House for sale</div></div>
+
+
+=======================
+======================= TRULIA ALGORITHM
+BOUT TO USE SAME LOGIN FOR TRULIA, COS THE MF PRESS AND HOLD IF YOU ARE NOT A ROBOT DEY VEX ME
+1️⃣ VISIT "https://www.trulia.com"
+
+2️⃣ finding the input field on trulia, input your city and state
+TAG: <input data-testid="location-search-input" type="text" autocomplete="off" role="combobox" aria-controls="react-autowhatever-home-banner" aria-expanded="false" aria-owns="react-autowhatever-home-banner" class="AutosuggestInput__Input-sc-e8042cbf-0 doCukb react-autosuggest__input" placeholder="Search for City, Neighborhood, Zip, County, School" name="location-search-Sat Oct 28 2023 15:05:12 GMT+0000 (Greenwich Mean Time)" aria-label="Search for City, Neighborhood, Zip, County, School" id="banner-search" value="Alexandria, VA">
+CLASS: class="AutosuggestInput__Input-sc-e8042cbf-0 doCukb react-autosuggest__input"
+ID: id="banner-search"
+UNIQUE CLASSNAME: doCukb
+
+🚩 DIDNT USE A BUTTON TO SUBMIT THE INPUT. I MODELED A RETURN KEY USING THE INPUT FIELD
+BUTTON for banner-search
+TAG: <div role="button" aria-label="submit search" data-testid="location-search-button" tabindex="0" class="Box__BoxElement-sc-9529e829-0 bjkomQ BoxButton-sc-155631a2-0 AutosuggestInput__RightIcon-sc-e8042cbf-5 bSUoRr jEgIuP">
+            <div class="getUiSvgContainer__SvgContainer-sc-3c9612d7-0 eRiUtW"><svg role="img" aria-label="" aria-hidden="true" class="svg" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><path d="M20.756 18.876l6.155 6.154-1.88 1.881-6.155-6.155A9.269 9.269 0 0 1 13.3 22.61a9.31 9.31 0 1 1 9.31-9.31c0 2.091-.69 4.021-1.854 5.576zM13.3 19.95a6.65 6.65 0 1 0 0-13.3 6.65 6.65 0 0 0 0 13.3z" fill="#869099" data-darkreader-inline-fill="" style="--darkreader-inline-fill: #a2998d;"></path></svg></div></div>
+
+CLASS: class="Box__BoxElement-sc-9529e829-0 bjkomQ BoxButton-sc-155631a2-0 AutosuggestInput__RightIcon-sc-e8042cbf-5 bSUoRr jEgIuP"
+
+3️⃣ GRAB THE CARDS
+THIS HOLDS THE AMOUNT AND ADDRESS
+TAG: <div class="Box__BoxElement-sc-9529e829-0 bjkomQ"><div data-testid="property-card-details" class="Padding-sc-bf66b591-0 kIlYiJ"><div class="MediaBlock__MediaContainer-sc-ad2f5bfc-0 caedLv"><div class="MediaBlock__MediaContent-sc-ad2f5bfc-1 iIUpgh"><div class="MediaBlock__MediaContainer-sc-ad2f5bfc-0 caedLv"><div class="MediaBlock__MediaContent-sc-ad2f5bfc-1 gSCYuI"><div data-testid="property-price" title="$1,395,000" class="Text__TextBase-sc-27a633b1-0-div Text__TextContainerBase-sc-27a633b1-1 ewcDjf keSfom">$1,395,000</div></div></div></div><div><div role="button" aria-label="more options" class="Box__BoxElement-sc-9529e829-0 bjkomQ BoxButton-sc-155631a2-0 cpuvdb UiButton-sc-457c87e0-0 hbfUXF" tabindex="0"><div class="Padding-sc-bf66b591-0 qoyrV"><div class="getUiSvgContainer__SvgContainer-sc-3c9612d7-0 lawCep"><svg role="img" aria-label="" aria-hidden="true" class="svg" width="18" height="5" viewBox="0 0 18 5" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="2" cy="2.5" r="2" fill="#3C4043"></circle><circle cx="9" cy="2.5" r="2" fill="#3C4043"></circle><circle cx="16" cy="2.5" r="2" fill="#3C4043"></circle></svg></div></div></div></div></div><div class="Padding-sc-bf66b591-0 kIlYiP"><div class="FlexContainers__Columns-sc-d0e49f72-2 iKQvjL"><div r="xxs" class="Padding-sc-bf66b591-0 kTAAQh"><div class="MediaBlock__MediaContainer-sc-ad2f5bfc-0 caedLv"><img loading="lazy" decoding="async" src="https://www.trulia.com/images/icons/txl3/BedIcon.svg" alt="" class="Image__ImageContainer-sc-776ebfb1-0 dToGWc getSvgContainer__StyledImage-sc-8b93bed-1 hXzyir"><div class="MediaBlock__MediaContent-sc-ad2f5bfc-1 ikaifl"><div data-testid="property-beds" class="Text__TextBase-sc-27a633b1-0-div Text__TextContainerBase-sc-27a633b1-1 cYrgQP gtvmjT">3bd</div></div></div></div><div r="xxs" class="Padding-sc-bf66b591-0 kTAAQh"><div class="MediaBlock__MediaContainer-sc-ad2f5bfc-0 caedLv"><img loading="lazy" decoding="async" src="https://www.trulia.com/images/icons/txl3/BathIcon.svg" alt="" class="Image__ImageContainer-sc-776ebfb1-0 dToGWc getSvgContainer__StyledImage-sc-8b93bed-1 hXzyir"><div class="MediaBlock__MediaContent-sc-ad2f5bfc-1 ikaifl"><div data-testid="property-baths" class="Text__TextBase-sc-27a633b1-0-div Text__TextContainerBase-sc-27a633b1-1 cYrgQP gtvmjT">3ba</div></div></div></div><div r="xxs" style="overflow:hidden" class="Padding-sc-bf66b591-0 kTAAQh"><div class="MediaBlock__MediaContainer-sc-ad2f5bfc-0 caedLv"><img loading="lazy" decoding="async" src="https://www.trulia.com/images/icons/txl3/SquareFeetIcon.svg" alt="" class="Image__ImageContainer-sc-776ebfb1-0 dToGWc getSvgContainer__StyledImage-sc-8b93bed-1 hXzyir"><div class="MediaBlock__MediaContent-sc-ad2f5bfc-1 jykePe"><div data-testid="property-floorSpace" title="2,311 sqft" class="Text__TextBase-sc-27a633b1-0-div Text__TextContainerBase-sc-27a633b1-1 cYrgQP keSfom">2,311 sqft</div></div></div></div></div></div><a href="/p/va/alexandria/831-s-lee-st-alexandria-va-22314--2090678481" data-testid="property-card-link" class="PropertyCard__StyledLink-sc-dc664aba-3 agAjT"><div data-testid="property-address" title="831 S  Lee St Alexandria, VA 22314" class="Text__TextBase-sc-27a633b1-0-div Text__TextContainerBase-sc-27a633b1-1 cYrgQP keSfom">831 S  Lee St<!-- -->, <br>Alexandria, VA 22314</div></a></div></div>
+UNIQUE CLASSNAME: bjkomQ
+💰 CLASSNAME: keSfom

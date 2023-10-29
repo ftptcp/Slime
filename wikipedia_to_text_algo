@@ -1,0 +1,17 @@
+visit https://www.wikipedia.org/
+
+USER: Get User search query
+
+FIND THE SEARCH INPUT FIELD
+TAG: <input id="searchInput" name="search" type="search" size="20" autofocus="autofocus" accesskey="F" dir="auto" autocomplete="off" style="padding-right: 64px;">
+ID:  id="searchInput"
+
+INPUT [USER] QUERY IN SEARCH-INPUT
+AND CLICK.
+
+
+
+
+
+
+

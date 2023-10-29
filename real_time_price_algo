@@ -1,0 +1,19 @@
+while not end_search
+get cryptocurrency name
+
+Replace {cryptocurrency-name} == user crypto currency name
+get the page = https://coinmarketcap.com/currencies/{cryptocurrency-name}/
+
+
+
+Find the price tag. dxubiK
+<span class="sc-16891c57-0 dxubiK base-text">$0.5461</span> dxubiK
+
+price = driver.find.element(By.CLASSNAME, "dxubiK")
+print(price.text)
+
+lauch the browser.
+ask you the cryptocurrency-name
+
+print the price in the console
+ask
